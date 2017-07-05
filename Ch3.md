@@ -1,4 +1,5 @@
 3.1
+```
 Hours = raw_input('Enter Hours:')
 Rate = raw_input('Enter Rate:')
 
@@ -11,8 +12,9 @@ if Hours > 40:
 	Pay = 40 * 10 + (Hours - 40) * 1.5 * Rate
 
 print 'Pay:', Pay
-
+```
 3.2
+```
 Hours = raw_input('Enter Hours:')
 Rate = raw_input('Enter Rate:')
 
@@ -28,8 +30,9 @@ try:
 
 except:
 	print 'Error, please enter numeric input'
-
+```
 3.3
+```
 Score = raw_input('Enter Score (should be between 0.0 and 1.0):')
 
 try:
@@ -52,3 +55,4 @@ try:
 
 except:
 	print 'Bad score'
+```
