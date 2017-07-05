@@ -1,0 +1,46 @@
+4.4 b and c are both true.
+
+4.5 ABC Zap ABC
+
+4.6
+def computepay(Hours, Rate):
+	try:
+		Hours = float(Hours)
+		Rate = float(Rate)
+
+		if Hours > 40:
+			Pay = 40 * 10 + (Hours - 40) * 1.5 * Rate
+		else:
+			Pay = Hours * Rate
+		return 'Pay:', Pay
+	except:
+		return 'Error, please enter numeric input'
+
+Hours = raw_input('Enter Hours:')
+Rate = raw_input('Enter Rate:')
+
+print computepay(Hours, Rate)
+
+4.7
+def computegrade(Score):
+	try:
+		Score = float(Score)
+		
+		if Score > 1.0 or Score < 0.0 :
+			Grade = 'Bad score'
+		elif Score >= 0.9:
+			Grade = 'A'
+		elif Score >= 0.8:
+			Grade = 'B'
+		elif Score >= 0.7:
+			Grade = 'C'
+		elif Score >= 0.6:
+			Grade = 'D'
+		elif Score < 0.6:
+			Grade = 'F'
+		return Grade
+	except:
+	    return 'Bad score'
+
+Score = raw_input('Enter Score (should be between 0.0 and 1.0):')
+print computegrade(Score)
