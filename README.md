@@ -1,5 +1,5 @@
 # PythonPractice
-My Python practice for questions of charles severance's *Python for Informatics* 
+My Python practice for questions of Charles Severance's *Python for Informatics* 
 
 Here you can find the book (in EN and CN):
 1. [*Python for Informatics*](http://www.pythonlearn.com/)
