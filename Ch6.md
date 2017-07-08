@@ -1,4 +1,5 @@
 6.5
+
 str = 'X-DSPAM-Confidence:  0.8475'
 
 ```
@@ -8,4 +9,4 @@ num = float(num)
 ```
 
 6.6
-[String Method](https://docs.python.org/2.4/lib/string-methods.html)
+Website for [String Methods](https://docs.python.org/2.4/lib/string-methods.html)
